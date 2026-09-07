@@ -7,6 +7,16 @@ The project uses a **Telco Customer Churn** dataset and demonstrates how an ML m
 
 ---
 
+## 🎥 Demo Video
+
+[▶ Watch the Demo](https://github.com/user-attachments/assets/9f6bc937-11b9-4995-9dd0-9a052898b825)
+
+## 🌐 Live Demo
+
+🔗 **Try the Application Here:**
+
+https://ml-model-reliability-retraining-system.onrender.com/
+
 ## 📌 Project Overview
 
 A Machine Learning model may perform well during development but degrade after deployment because production data can change over time.
