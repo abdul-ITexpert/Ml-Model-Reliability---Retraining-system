@@ -274,6 +274,25 @@ def calculate_categorical_drift(
             else None
     }
 
+app.mount(
+    "/css",
+    StaticFiles(directory=FRONTEND_DIR / "css"),
+    name="css"
+)
+
+app.mount(
+    "/js",
+    StaticFiles(directory=FRONTEND_DIR / "js"),
+    name="js"
+)
+
+@app.get("/")
+def frontend():
+
+    return FileResponse(
+        FRONTEND_DIR / "index.html"
+    )
+
 @app.get("/api/health")
 def health():
 
@@ -282,12 +301,6 @@ def health():
         "service": "Production ML Reliability System"
     }
 
-@app.get("/")
-def frontend():
-
-    return FileResponse(
-        FRONTEND_DIR / "index.html"
-    )
 
 @app.get("/model")
 def model_status():
@@ -654,20 +667,9 @@ def model_metadata():
 
     return metadata
 
+
 app.mount(
     "/static",
     StaticFiles(directory=FRONTEND_DIR),
     name="frontend"
-)
-
-app.mount(
-    "/css",
-    StaticFiles(directory=FRONTEND_DIR / "css"),
-    name="css"
-)
-
-app.mount(
-    "/js",
-    StaticFiles(directory=FRONTEND_DIR / "js"),
-    name="js"
 )

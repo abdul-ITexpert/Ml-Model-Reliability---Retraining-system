@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ML Reliability System</title><link rel="stylesheet" href="css/style.css">
+<title>ML Reliability System</title><link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
 <div class="app-shell">
@@ -24,4 +24,4 @@
 <div class="grid two"><div class="panel"><h2>Model Performance</h2><div class="mini-bars"><div><span>Accuracy <b>81.90%</b></span><i style="width:81.90%"></i></div><div><span>Precision <b>67.76%</b></span><i style="width:67.76%"></i></div><div><span>Recall <b>60.70%</b></span><i style="width:60.70%"></i></div><div><span>F1 <b>64.03%</b></span><i style="width:64.03%"></i></div><div><span>ROC-AUC <b>87.77%</b></span><i style="width:87.77%"></i></div></div></div><div class="panel"><h2>Reliability Checks</h2><ul class="check-list"><li><span>✓</span> API availability</li><li><span>✓</span> Active model loaded — v2</li><li><span>✓</span> Prediction logging</li><li><span>✓</span> Production evaluation completed</li><li><span>✓</span> Candidate model evaluation completed</li></ul></div></div></section>
 <section id="models" class="page"><div class="panel"><div class="panel-head"><div><h2>Model Registry</h2><p>View model versions and their production status.</p></div></div><div id="modelList" class="model-list"></div></div><div class="panel"><div class="panel-head"><div><h2>Retraining</h2><p>Shows the latest autonomous retraining decision.</p></div></div><div class="retrain-box"><div><span>Current Model</span><strong id="currentModel">v2</strong></div><div><span>Candidate Model</span><strong id="candidateModel">v1</strong></div><div><span>Trigger</span><strong id="retrainTrigger">Candidate failed evaluation</strong></div><div><span>Decision</span><strong id="retrainDecision">Rejected</strong></div></div></div></section>
 <section id="alerts" class="page"><div class="panel"><div class="panel-head"><div><h2>System Alerts</h2><p>Important events from your production ML system.</p></div></div><div id="alertsList" class="alerts-list"><div class="alert success"><b>OK</b><div><strong>Production model healthy</strong><p>Active model v2 is currently serving predictions.</p></div></div><div class="alert success"><b>OK</b><div><strong>Monitoring completed</strong><p>Production evaluation completed with F1 0.6403 and ROC-AUC 0.8777.</p></div></div><div class="alert info"><b>INFO</b><div><strong>Candidate model rejected</strong><p>Candidate v1 did not outperform the active v2 model and was not promoted.</p></div></div></div></div></section>
-</main></div><script src="js/app.js"></script></body></html>
+</main></div><script src="/js/app.js"></script></body></html>
