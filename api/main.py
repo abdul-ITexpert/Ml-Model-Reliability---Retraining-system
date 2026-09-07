@@ -8,6 +8,8 @@ import os
 from datetime import datetime
 from scipy.stats import ks_2samp
 from pathlib import Path
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -15,6 +17,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
 PROCESSED_DIR = DATA_DIR / "processed"
 PRODUCTION_DIR = DATA_DIR / "production"
+
+FRONTEND_DIR = BASE_DIR / "ml-reliability-frontend"
 
 MODELS_DIR = BASE_DIR / "models"
 
@@ -270,13 +274,20 @@ def calculate_categorical_drift(
             else None
     }
 
-@app.get("/")
-def home():
+@app.get("/api/health")
+def health():
 
     return {
         "status": "online",
         "service": "Production ML Reliability System"
     }
+
+@app.get("/")
+def frontend():
+
+    return FileResponse(
+        FRONTEND_DIR / "index.html"
+    )
 
 @app.get("/model")
 def model_status():
@@ -642,3 +653,9 @@ def model_metadata():
         metadata = json.load(f)
 
     return metadata
+
+app.mount(
+    "/static",
+    StaticFiles(directory=FRONTEND_DIR),
+    name="frontend"
+)
