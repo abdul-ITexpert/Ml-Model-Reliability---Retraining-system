@@ -1,0 +1,12 @@
+{
+    "timestamp": "2026-08-29T16:16:39.484232",
+    "previous_model": "v1",
+    "candidate_model": "v2",
+    "previous_f1": 0.6363636363636364,
+    "new_f1": 0.645367412140575,
+    "f1_improvement": 0.009003775776938672,
+    "f1_improvement_percentage": 1.4148790506617912,
+    "minimum_required_improvement": 0.01,
+    "model_promoted": false,
+    "active_model": "v1"
+}

@@ -1,0 +1,39 @@
+{
+    "active_model": "v2",
+    "models": {
+        "v1": {
+            "version": "v1",
+            "status": "rejected",
+            "model_type": "CatBoostClassifier",
+            "accuracy": 0.8260869565217391,
+            "precision": 0.69,
+            "recall": 0.64,
+            "f1": 0.66,
+            "roc_auc": 0.8668892281841242,
+            "dataset": "Telco Customer Churn",
+            "created_at": "2026-08-31",
+            "description": "Initial production model",
+            "evaluation_metrics": {
+                "accuracy": 0.801277501774308,
+                "precision": 0.6243386243386243,
+                "recall": 0.6310160427807486,
+                "f1": 0.6276595744680851,
+                "roc_auc": 0.85766230075693
+            }
+        },
+        "v2": {
+            "version": "v2",
+            "model_type": "CatBoostClassifier",
+            "accuracy": 0.8190205819730305,
+            "precision": 0.6776119402985075,
+            "recall": 0.606951871657754,
+            "f1": 0.6403385049365303,
+            "roc_auc": 0.8776976930429615,
+            "status": "production",
+            "created_at": "2026-08-31T15:22:13.046175",
+            "previous_model": "v1",
+            "training_reason": "Production F1 degradation",
+            "production_f1_before_retraining": 0.6276595744680851
+        }
+    }
+}

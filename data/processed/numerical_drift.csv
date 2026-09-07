@@ -1,0 +1,16 @@
+batch_id,feature,psi,status
+batch_001,Tenure Months,0.06143869523468891,No Significant Drift
+batch_001,Monthly Charges,0.04141768342661777,No Significant Drift
+batch_001,Total Charges,0.07579781696381199,No Significant Drift
+batch_002,Tenure Months,0.017817809692929846,No Significant Drift
+batch_002,Monthly Charges,0.02258778687736199,No Significant Drift
+batch_002,Total Charges,0.01500730760418955,No Significant Drift
+batch_003,Tenure Months,0.03441515445797645,No Significant Drift
+batch_003,Monthly Charges,0.08533425391241752,No Significant Drift
+batch_003,Total Charges,0.028590809791226225,No Significant Drift
+batch_004,Tenure Months,0.03149645386569408,No Significant Drift
+batch_004,Monthly Charges,0.023900513298636513,No Significant Drift
+batch_004,Total Charges,0.013284613577855783,No Significant Drift
+batch_005,Tenure Months,0.039981698812721615,No Significant Drift
+batch_005,Monthly Charges,0.011268769069982492,No Significant Drift
+batch_005,Total Charges,0.016985189235804936,No Significant Drift

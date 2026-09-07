@@ -1,0 +1,81 @@
+batch_id,feature,p_value,status
+batch_001,Gender,0.6535087841989209,No Significant Drift
+batch_001,Senior Citizen,0.8849179779377726,No Significant Drift
+batch_001,Partner,0.9261059612301699,No Significant Drift
+batch_001,Dependents,0.8848038685389811,No Significant Drift
+batch_001,Phone Service,0.5160347416782612,No Significant Drift
+batch_001,Multiple Lines,0.06802496166361079,No Significant Drift
+batch_001,Internet Service,0.4540655236841361,No Significant Drift
+batch_001,Online Security,0.0975476624520996,No Significant Drift
+batch_001,Online Backup,0.08172417494312924,No Significant Drift
+batch_001,Device Protection,0.28608206649388007,No Significant Drift
+batch_001,Tech Support,0.05747959720927671,No Significant Drift
+batch_001,Streaming TV,0.4070098016642447,No Significant Drift
+batch_001,Streaming Movies,0.622037523166272,No Significant Drift
+batch_001,Contract,0.14792716545932463,No Significant Drift
+batch_001,Paperless Billing,1.0,No Significant Drift
+batch_001,Payment Method,0.9445267229611917,No Significant Drift
+batch_002,Gender,0.03656907410987239,Drift Detected
+batch_002,Senior Citizen,0.43800230164753917,No Significant Drift
+batch_002,Partner,0.6318053562140138,No Significant Drift
+batch_002,Dependents,1.0,No Significant Drift
+batch_002,Phone Service,0.9395200507163725,No Significant Drift
+batch_002,Multiple Lines,0.4292310090417516,No Significant Drift
+batch_002,Internet Service,0.8334976077172684,No Significant Drift
+batch_002,Online Security,0.6004053562156888,No Significant Drift
+batch_002,Online Backup,0.7236139993705728,No Significant Drift
+batch_002,Device Protection,0.5982476556041652,No Significant Drift
+batch_002,Tech Support,0.5190034410047202,No Significant Drift
+batch_002,Streaming TV,0.3536984808669405,No Significant Drift
+batch_002,Streaming Movies,0.28438685401277236,No Significant Drift
+batch_002,Contract,0.014730991529923187,Drift Detected
+batch_002,Paperless Billing,0.7293621387397475,No Significant Drift
+batch_002,Payment Method,0.17267563548105136,No Significant Drift
+batch_003,Gender,0.038480100360024076,Drift Detected
+batch_003,Senior Citizen,0.6456431014070432,No Significant Drift
+batch_003,Partner,0.5518241109469415,No Significant Drift
+batch_003,Dependents,0.8848038685389811,No Significant Drift
+batch_003,Phone Service,0.155855327145291,No Significant Drift
+batch_003,Multiple Lines,0.23615296056654175,No Significant Drift
+batch_003,Internet Service,0.2866815514435363,No Significant Drift
+batch_003,Online Security,0.11027702315760933,No Significant Drift
+batch_003,Online Backup,0.32092887407777243,No Significant Drift
+batch_003,Device Protection,0.3315896525046918,No Significant Drift
+batch_003,Tech Support,0.27224916869763766,No Significant Drift
+batch_003,Streaming TV,0.2503626601040185,No Significant Drift
+batch_003,Streaming Movies,0.16684394817074896,No Significant Drift
+batch_003,Contract,0.7892777092588024,No Significant Drift
+batch_003,Paperless Billing,0.7293621387397475,No Significant Drift
+batch_003,Payment Method,0.9357030889744751,No Significant Drift
+batch_004,Gender,0.25283424084615436,No Significant Drift
+batch_004,Senior Citizen,0.7514699100483182,No Significant Drift
+batch_004,Partner,0.8952343369307434,No Significant Drift
+batch_004,Dependents,0.4881057417546515,No Significant Drift
+batch_004,Phone Service,0.155855327145291,No Significant Drift
+batch_004,Multiple Lines,0.2570933431626017,No Significant Drift
+batch_004,Internet Service,0.656960484267326,No Significant Drift
+batch_004,Online Security,0.6774731455365296,No Significant Drift
+batch_004,Online Backup,0.7801798072586875,No Significant Drift
+batch_004,Device Protection,0.7019385973389581,No Significant Drift
+batch_004,Tech Support,0.7795149553195063,No Significant Drift
+batch_004,Streaming TV,0.4532824596696756,No Significant Drift
+batch_004,Streaming Movies,0.21906979606966887,No Significant Drift
+batch_004,Contract,0.7419547845834236,No Significant Drift
+batch_004,Paperless Billing,0.4786353809399465,No Significant Drift
+batch_004,Payment Method,0.8404180703109337,No Significant Drift
+batch_005,Gender,0.8115652000030775,No Significant Drift
+batch_005,Senior Citizen,0.8309070834115257,No Significant Drift
+batch_005,Partner,0.7415378673059614,No Significant Drift
+batch_005,Dependents,0.5025718746314403,No Significant Drift
+batch_005,Phone Service,0.8782484907345328,No Significant Drift
+batch_005,Multiple Lines,0.839610522066941,No Significant Drift
+batch_005,Internet Service,0.6701817834726242,No Significant Drift
+batch_005,Online Security,0.34014425816911276,No Significant Drift
+batch_005,Online Backup,0.04851248824033323,Drift Detected
+batch_005,Device Protection,0.6528244132135335,No Significant Drift
+batch_005,Tech Support,0.5477916432018197,No Significant Drift
+batch_005,Streaming TV,0.6554459960544535,No Significant Drift
+batch_005,Streaming Movies,0.6741972889067942,No Significant Drift
+batch_005,Contract,0.7649277910972527,No Significant Drift
+batch_005,Paperless Billing,0.9422015582807702,No Significant Drift
+batch_005,Payment Method,0.9342424256174006,No Significant Drift
