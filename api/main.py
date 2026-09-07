@@ -659,3 +659,15 @@ app.mount(
     StaticFiles(directory=FRONTEND_DIR),
     name="frontend"
 )
+
+app.mount(
+    "/css",
+    StaticFiles(directory=FRONTEND_DIR / "css"),
+    name="css"
+)
+
+app.mount(
+    "/js",
+    StaticFiles(directory=FRONTEND_DIR / "js"),
+    name="js"
+)
